@@ -17,6 +17,7 @@ function Question({ question, onAnswered }) {
       );
     }, 1000);
     return () => {
+    
       clearTimeout(timerId);
     };
   }, [timeRemaining]);
